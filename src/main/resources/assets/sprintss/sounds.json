@@ -1,8 +1,9 @@
 {
-  "sound_sprint1": {
-    "subtitles": "sounds.sprintss_sprint1",
+  "sound_sprint": {
+    "subtitles": "sounds.sprintss_sprint",
     "sounds": [
-        "sprintss:sprint1"
+        "sprintss:sprint1",
+        "sprintss:sprint2"
     ]
   }
 }
