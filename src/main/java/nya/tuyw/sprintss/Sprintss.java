@@ -9,7 +9,7 @@ import net.minecraftforge.client.settings.KeyConflictContext;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import nya.tuyw.sprintss.Common.Sounds.Sounds;
+import nya.tuyw.sprintss.Common.Sounds;
 import org.slf4j.Logger;
 
 @Mod(Sprintss.MODID)
