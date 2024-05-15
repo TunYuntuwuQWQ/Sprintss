@@ -20,9 +20,8 @@ public class InputKey {
     @SubscribeEvent
     public static void onInput(InputEvent.Key event){
         if (Sprintss.KEY_SPRINT.consumeClick()){
-            CooldownTicker.refreshCooldown();
-            if (CooldownTicker.getCanSprint()){
-                LocalPlayer player = Minecraft.getInstance().player;
+            LocalPlayer player = Minecraft.getInstance().player;
+            if (CooldownTicker.refreshCooldown()){
                 float f7 = player.getYRot();
                 float f = player.getXRot();
                 float f1 = -Mth.sin(f7 * ((float)Math.PI / 180F)) * Mth.cos(f * ((float)Math.PI / 180F));
@@ -40,9 +39,8 @@ public class InputKey {
 
                 player.playSound(Sounds.SPRINT.get());
                 player.sendSystemMessage(Component.translatable("message.key.sprint"));
-                CooldownTicker.setlastgt(Minecraft.getInstance().level.getGameTime());
             }else {
-                Minecraft.getInstance().player.sendSystemMessage(Component.translatable("message.key.cooldown"));
+                player.sendSystemMessage(Component.translatable("message.key.cooldown"));
             }
         }
     }
