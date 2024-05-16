@@ -1,13 +1,11 @@
 {
   "sound_sprint": {
-    "subtitles": "sounds.sprintss_sprint",
     "sounds": [
         "sprintss:sprint1",
         "sprintss:sprint2"
     ]
   },
   "sound_waah": {
-    "subtitles": "sounds.sprintss_waah",
     "sounds": [
         "sprintss:waah1",
         "sprintss:waah2"

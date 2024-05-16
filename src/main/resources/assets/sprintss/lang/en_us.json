@@ -1,5 +1,6 @@
 {
     "category.sprintss.sprintss":"SprintSprintSprint",
     "key.sprintss.sprint":"Sprint",
-    "message.key.sprint": "SPRINT!!"
+    "message.key.sprint": "SPRINT!!",
+    "message.key.cooldown": "Your sprint is still cooling"
 }
